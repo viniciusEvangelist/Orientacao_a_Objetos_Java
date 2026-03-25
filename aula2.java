@@ -11,18 +11,22 @@ public class OOLana {
                 System.out.println("o valor da divisão de x/y é: " + (x/y));
                 System.out.println("o valor da x^y é: "+(Math.pow(x,y))); 
          }*/
-       /* public static void main(String[] args){
-                Scanner lerFloat = new Scanner(System.in);
-                System.out.println("este programa calcula o valor da expressao a*a = (b*b) + (c*c)");
-                System.out.println("digite o valor de a:  ");
-                float a = lerFloat.nextFloat();
-                System.out.println("digite o valor de b: ");
-                float b = lerFloat.nextFloat();
-                System.out.println("digite o valor de c: ");
-                float c = lerFloat.nextFloat();
-                    if (a*a == (b*b)+(c*c))
-                    System.out.println("(b*b)+(c*c) = " + a*a);
-                    else System.out.println("digite valores que atendam a expressao a*a = (b*b) + (c*c)");
-                return; 
-        } */
+       /*public static void main(String[] args){
+        JOptionPane.showMessageDialog(null, "Esse programa calcula o valor da expressão a*a = (b*b)+(c*c)");
+        String valor1 = JOptionPane.showInputDialog("digite o valor de a: ");
+        int a = Integer.parseInt(valor1);
+        String valor2 = JOptionPane.showInputDialog("digite o valor de b: ");
+        int b = Integer.parseInt(valor2);
+        String valor3 = JOptionPane.showInputDialog("digite o valor de c ");
+        int c = Integer.parseInt(valor3);
+        if ((b*b)+(c*c)==a*a) {
+           JOptionPane.showMessageDialog(null, "substituindo os valores de a, b e c na expressão \n" +
+                   "a*a = (b*b)+(c*c) \n" +
+                   "temos "+ a+"*"+a+" = "+ b+"*"+b +"+"+ c+"*"+c+ "\n"+
+                   "o valor da expressão é: " +a*a);
+        }
+        else {
+           JOptionPane.showMessageDialog(null, "digite um valor válido" );
+        }
+       } */
 }       
