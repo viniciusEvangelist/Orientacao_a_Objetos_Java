@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        float x = 10;
-        float y = 5;
-        System.out.println(calculadora.somar(x, y));
-        System.out.println(calculadora.subtracao(x, y));
-        System.out.println(calculadora.multiplicacao(x, y));
-        System.out.println(calculadora.divisao(x, y));
+        Livro livro1 = new Livro("Dom Casmurro", "Machado de Assis");
+        Livro livro2 = new Livro("Hora da Estrela", "Clarice Lispector");
+        livro1.emprestar();
+        livro1.emprestar();
+        livro2.emprestar();
+        livro2.emprestar();
     }
 }
